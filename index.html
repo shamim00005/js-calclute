@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box-all{
+          display: flex;
+        }
+        .box{
+            border: 5px dotted blue;
+            margin: 10px;
+            width: 30%;
+        }
+    </style>
+</head>
+<body>
+
+  <div class="box-all">
+    <div class="box">
+        <h1> Diposite amount<h1 id="show-box">00</h1></h1>
+        <input type="number"  id="input-filed">
+        <button id="add-button">add</button>
+        <button id="clear">clear</button>
+    </div>
+    <div class="box">
+        <h1>Blance <h1 id="show-balance">1200</h1></h1>
+    </div>
+    <div class="box">
+        <h1> withdrow amount <h1 id="withdrow-show-box">00</h1></h1>
+        <input type="number"  id="dipo-input-filed">
+        <button id="withdrow-add-button">add</button>
+        
+    </div>
+  </div>
+
+    <script src="calcatute.js"></script>
+</body>
+</html>
